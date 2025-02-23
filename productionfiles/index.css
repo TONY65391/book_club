@@ -58,6 +58,7 @@
     #desc {position: absolute; top: 27%; background: rgba(247, 242, 242, 0.7);}
     #rm {position: absolute; top: 38%; color: black; padding: 10px; background: orange; border-radius: 10px; transition: 0.5s; margin-left: 37%;}
     #rm:hover {background: black; color: orange; transition: 0.5s;}
+    #rm {display: none;}
 }
 @media screen and (min-width:650px) {
     .img-gallery div{width: 50%; float: left; margin-top: 40px;}
