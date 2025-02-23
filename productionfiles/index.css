@@ -1,0 +1,103 @@
+* {margin: 0; padding: 0; box-sizing: border-box; text-transform: capitalize; font-family: Arial, Helvetica, sans-serif;}
+.head, #img-cont, .contents {width: 96%; margin: auto; max-width: 100%; padding-top: 20px;}
+.head a {padding-top: 30px; margin: 0 5px 0 5px; text-decoration: none; transition: 0.5s; font-weight: bolder; color: black;}
+
+
+.dropbtn:hover, .head a:hover {color: orange; transition: 0.5s;}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: black;
+    width: 200px;
+}
+.dropdown-content a{
+    color: white;
+    float: left;
+    padding: 12px 16px; 
+}
+.dropbtn {
+    padding-top: 30px;
+    margin: 0 5px 0 5px;
+    font-weight: bolder;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.sub-links, .dropdown, a {
+    float: right;
+    display: inline;
+}
+
+.nav div {height: 3px; margin: 4px; background: orange; transition: 0.5s;}
+.one {width: 18px;}
+.two {width: 15px;}
+.three { width: 22px;}
+.nav {float: right;}
+.nav:hover div{width: 30px; transition: 0.5s; background: black;}
+
+@media screen and (max-width:1100px) {
+    .sub-links {display: none;}    
+}
+@media screen and (min-width:1100px) {
+    .nav {display: none;}    
+}
+@media screen and (max-width:650px) {
+    .img-gallery img {width: 90%; margin-left: 4%; border-top-right-radius: 60px; border-bottom-left-radius: 60px;}
+    .img-gallery h2, #sub-head {font-size: 35;}
+    #rm {position: absolute; top: 82%; color: black; padding: 10px; background: orange; border-radius: 5px; transition: 0.5s;}
+    #rm:hover, #subs:hover { transition: 0.5s; background: black; color: orange;}
+    .final img{width: 80%; margin-left: 10%; margin-top: 40px;}
+    #img-txt {position: absolute; top: 15%; color: orange; background: rgba(10, 0, 0, 0.3);}
+    #desc {position: absolute; top: 27%; background: rgba(247, 242, 242, 0.7);}
+    #rm {position: absolute; top: 38%; color: black; padding: 10px; background: orange; border-radius: 10px; transition: 0.5s; margin-left: 37%;}
+    #rm:hover {background: black; color: orange; transition: 0.5s;}
+}
+@media screen and (min-width:650px) {
+    .img-gallery div{width: 50%; float: left; margin-top: 40px;}
+    #last {width: 70%; margin-left: 13%; margin-top: 30px;}
+    #last img{margin-left: 60px;}
+    .img-gallery {height: 1200px;}  
+    .img-gallery img {border-top-right-radius: 60px; border-bottom-left-radius: 60px; margin-left: 7%; width: 85%;}  
+    .final div{width: 50%; float: left; margin-top: 40px;}
+    .final img{width: 80%; margin-left: 8%;}
+    .final {height: 1150px;}
+    #ld {width: 70%; margin-left: 15%; margin-top: 50px;}
+    #img-txt {position: absolute; top: 20%; color: orange; background: rgba(10, 0, 0, 0.3); font-size: 50;}
+    #desc {position: absolute; top: 40%; background: rgba(247, 242, 242, 0.7); font-size: 25;}
+    #rm {position: absolute; top: 55%; color: black; background: orange; border-radius: 7px; transition: 0.5s; padding: 10px; border-radius: 0; border-top-right-radius: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;}
+    #rm:hover {background: black; color: orange; transition: 0.5s;}
+}
+@media screen and (min-width:900px) {
+    .img-gallery div, #last{width: 33%; float: left; margin: 0;}
+    #last img, .img-gallery img {margin-left: 10px;}
+    #last {margin-top: 10px;}
+    .img-gallery {height: 600px;}
+    #img-txt {top: 50%; font-size: 60;}
+    #desc {top: 73%;}
+    #rm {top: 85%; margin-left: 0; padding: 30px; border-radius: 0; border-top-right-radius: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;}
+}
+.final {margin-top: 70px;}
+.final p {width: 80%; margin: auto; text-align: center; margin-top: 20px;}
+.final h2{width: fit-content; margin: auto; text-align: center; margin-top: 30px;}
+form {width: fit-content; margin: auto;}
+#subs {width: 170px; margin: auto; padding: 12px 16px; background: orange; transition: 0.5s; margin-top: 20px; border-bottom-right-radius: 15px; border-top-left-radius: 15px; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+#subs:hover {background: black; color: orange; transition: 0.5s;}
+input {height: 50px; border-top-right-radius: 15px; border-bottom-left-radius: 15px; margin-top: 20px;}
+input::placeholder {margin-left: 40px;}
+
+
+.img-gallery h2, #sub-head {width: fit-content; margin: auto; margin-top: 30px; margin-bottom: 20px;}
+.img-gallery h4, #sub-desc {width: 50%; margin: auto; text-align: center;}
+.img-gallery h5 {width: fit-content; margin: auto; margin-top: 20px; margin-bottom: 10px; padding: 13px; background: orange; color: black; border-radius: 5px; transition: 0.5s;}
+.img-gallery h5:hover {background: black; color: orange; transition: 0.5s;}
+.img-gallery img {margin-top: 40px;}
+
+.final { background: rgba(10, 0, 0, 0.9);}
+.final h2, p {color: rgba(229, 226, 226, 0.9); }
