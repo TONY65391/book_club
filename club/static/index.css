@@ -50,7 +50,7 @@
 }
 @media screen and (max-width:650px) {
     .img-gallery img {width: 90%; margin-left: 4%; border-top-right-radius: 60px; border-bottom-left-radius: 60px;}
-    .img-gallery h2, #sub-head {font-size: 35;}
+    .img-gallery h2, #sub-head {font-size: 35; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
     #rm {position: absolute; top: 82%; color: black; padding: 10px; background: orange; border-radius: 5px; transition: 0.5s;}
     #rm:hover, #subs:hover { transition: 0.5s; background: black; color: orange;}
     .final img{width: 80%; margin-left: 10%; margin-top: 40px;}
@@ -59,6 +59,7 @@
     #rm {position: absolute; top: 38%; color: black; padding: 10px; background: orange; border-radius: 10px; transition: 0.5s; margin-left: 37%;}
     #rm:hover {background: black; color: orange; transition: 0.5s;}
     #rm {display: none;}
+    .contents {margin-top: 50px;}
 }
 @media screen and (min-width:650px) {
     .img-gallery div{width: 50%; float: left; margin-top: 40px;}
@@ -68,12 +69,14 @@
     .img-gallery img {border-top-right-radius: 60px; border-bottom-left-radius: 60px; margin-left: 7%; width: 85%;}  
     .final div{width: 50%; float: left; margin-top: 40px;}
     .final img{width: 80%; margin-left: 8%;}
-    .final {height: 1150px;}
+    .final {height: 1200px;}
     #ld {width: 70%; margin-left: 15%; margin-top: 50px;}
     #img-txt {position: absolute; top: 20%; color: orange; background: rgba(10, 0, 0, 0.3); font-size: 50;}
     #desc {position: absolute; top: 40%; background: rgba(247, 242, 242, 0.7); font-size: 25;}
     #rm {position: absolute; top: 55%; color: black; background: orange; border-radius: 7px; transition: 0.5s; padding: 10px; border-radius: 0; border-top-right-radius: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;}
     #rm:hover {background: black; color: orange; transition: 0.5s;}
+    #latest {width: 70%; margin-left: 15%; margin-top: 30px;}
+    .img-gallery h2, #sub-head {font-size: 40; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 }
 @media screen and (min-width:900px) {
     .img-gallery div, #last{width: 33%; float: left; margin: 0;}
@@ -83,7 +86,10 @@
     #img-txt {top: 50%; font-size: 60;}
     #desc {top: 73%;}
     #rm {top: 85%; margin-left: 0; padding: 30px; border-radius: 0; border-top-right-radius: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;}
+    #latest {width: 70%; margin-left: 15%; margin-top: 30px;}
+
 }
+
 .final {margin-top: 70px;}
 .final p {width: 80%; margin: auto; text-align: center; margin-top: 20px;}
 .final h2{width: fit-content; margin: auto; text-align: center; margin-top: 30px;}
